@@ -1,6 +1,6 @@
 applications:
   - name: itam
     buildpack: java_buildpack
-    path: target\StudentManagement.jar
+    path: target/StudentManagement.jar
     services:
       - mongodb
