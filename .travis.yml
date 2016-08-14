@@ -11,5 +11,5 @@ deploy:
    username: gsarathkumar92@yahoo.in
    password: SMILE7day@
    api: https://api.run.pivotal.io
-   organization: Student Management
+   organization: StudentManagement
    space: development
