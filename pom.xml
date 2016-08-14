@@ -1,36 +1,26 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 	<modelVersion>4.0.0</modelVersion>
-	<groupId>com.mkyong</groupId>
-	<artifactId>SpringMvcExample1</artifactId>
+	<groupId>com.studentmanangement</groupId>
 	<packaging>jar</packaging>
-	<version>1.0-SNAPSHOT</version>
-	<name>SpringMvcExample Maven Webapp</name>
+	<version>1.0</version>
 	<url>http://maven.apache.org</url>
-
 	<properties>
-		<jdk.version>1.6</jdk.version>
-		<spring.version>3.2.2.RELEASE</spring.version>
-		<mongojavadriver.version>2.11.1</mongojavadriver.version>
-		<springdata.version>1.2.1.RELEASE</springdata.version>
+		<jdk.version>1.8</jdk.version>
 	</properties>
-
 	<dependencies>
-
 		<!-- Spring Core -->
 		<dependency>
 			<groupId>org.springframework</groupId>
 			<artifactId>spring-core</artifactId>
 			<version>4.3.1.RELEASE</version>
 		</dependency>
-
 		<!-- need this for @Configuration -->
 		<dependency>
 			<groupId>cglib</groupId>
 			<artifactId>cglib</artifactId>
 			<version>2.2.2</version>
 		</dependency>
-
 		<!-- Spring Data for MongoDB -->
 		<dependency>
 			<groupId>org.springframework.data</groupId>
@@ -44,10 +34,9 @@
 			<artifactId>mongo-java-driver</artifactId>
 			<version>3.3.0</version>
 		</dependency>
-
 	</dependencies>
 	<build>
-		<finalName>SpringData</finalName>
+		<finalName>StudentManagement</finalName>
 		<plugins>
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
@@ -68,8 +57,8 @@
 					<target>${jdk.version}</target>
 				</configuration>
 			</plugin>
-
 		</plugins>
 	</build>
-
+	<artifactId>testdeploy</artifactId>
+	<name>Student management</name>
 </project>

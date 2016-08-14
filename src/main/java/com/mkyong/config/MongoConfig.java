@@ -22,6 +22,7 @@ public class MongoConfig {
 
 	}
 	
+	@SuppressWarnings("deprecation")
 	public @Bean
 	MongoTemplate mongoTemplate() throws Exception {
 		
