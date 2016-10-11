@@ -1,5 +1,5 @@
 applications:
-  - name: itam
+  - name: lovelybells
     buildpack: java_buildpack
     path: target/StudentManagement.jar
     services:
