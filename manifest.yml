@@ -1,6 +1,6 @@
 applications:
-  - name: lovelybells
-    buildpack: java_buildpack
+  - name: weddingdiaries
+    buildpack: default
     path: target/StudentManagement.jar
     services:
       - test
